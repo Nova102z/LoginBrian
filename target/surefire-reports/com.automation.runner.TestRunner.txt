@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------
+Test set: com.automation.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.357 sec <<< FAILURE!
+Verify user can sign in with valid credentials(Login)  Time elapsed: 0.087 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "com.automation.utils.ConfigReader.prop" is null
+	at com.automation.utils.ConfigReader.getProperty(ConfigReader.java:22)
+	at com.automation.pages.LoginPage.userIsOnLoginPage(LoginPage.java:27)
+	at com.automation.stepdef.LoginTest.user_is_on_login_page(LoginTest.java:14)
+	at ✽.User is on login page(file:///Users/Avalancha2/Documents/HudlProjectBrian/HudlProjectBrian/src/test/resources/features/Login.feature:5)
+
+Verify user cannot login with blank username and blank password(Login)  Time elapsed: 0.006 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "com.automation.utils.ConfigReader.prop" is null
+	at com.automation.utils.ConfigReader.getProperty(ConfigReader.java:22)
+	at com.automation.pages.LoginPage.userIsOnLoginPage(LoginPage.java:27)
+	at com.automation.stepdef.LoginTest.user_is_on_login_page(LoginTest.java:14)
+	at ✽.User is on login page(file:///Users/Avalancha2/Documents/HudlProjectBrian/HudlProjectBrian/src/test/resources/features/Login.feature:5)
+
+Verify user cannot login with correct username and wrong password(Login)  Time elapsed: 0.006 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "com.automation.utils.ConfigReader.prop" is null
+	at com.automation.utils.ConfigReader.getProperty(ConfigReader.java:22)
+	at com.automation.pages.LoginPage.userIsOnLoginPage(LoginPage.java:27)
+	at com.automation.stepdef.LoginTest.user_is_on_login_page(LoginTest.java:14)
+	at ✽.User is on login page(file:///Users/Avalancha2/Documents/HudlProjectBrian/HudlProjectBrian/src/test/resources/features/Login.feature:5)
+
+Verify if remember me functionality is working as intended(Login)  Time elapsed: 0.008 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "com.automation.utils.ConfigReader.prop" is null
+	at com.automation.utils.ConfigReader.getProperty(ConfigReader.java:22)
+	at com.automation.pages.LoginPage.userIsOnLoginPage(LoginPage.java:27)
+	at com.automation.stepdef.LoginTest.user_is_on_login_page(LoginTest.java:14)
+	at ✽.User is on login page(file:///Users/Avalancha2/Documents/HudlProjectBrian/HudlProjectBrian/src/test/resources/features/Login.feature:5)
+
+Verify if user can login after changing password(Login)  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "com.automation.utils.ConfigReader.prop" is null
+	at com.automation.utils.ConfigReader.getProperty(ConfigReader.java:22)
+	at com.automation.pages.LoginPage.userIsOnLoginPage(LoginPage.java:27)
+	at com.automation.stepdef.LoginTest.user_is_on_login_page(LoginTest.java:14)
+	at ✽.User is on login page(file:///Users/Avalancha2/Documents/HudlProjectBrian/HudlProjectBrian/src/test/resources/features/Login.feature:5)
+
+Verify if user can press enter key on keyboard to login(Login)  Time elapsed: 0.005 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "com.automation.utils.ConfigReader.prop" is null
+	at com.automation.utils.ConfigReader.getProperty(ConfigReader.java:22)
+	at com.automation.pages.LoginPage.userIsOnLoginPage(LoginPage.java:27)
+	at com.automation.stepdef.LoginTest.user_is_on_login_page(LoginTest.java:14)
+	at ✽.User is on login page(file:///Users/Avalancha2/Documents/HudlProjectBrian/HudlProjectBrian/src/test/resources/features/Login.feature:5)
+
+Verify if password is encrypted(Login)  Time elapsed: 0.004 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "com.automation.utils.ConfigReader.prop" is null
+	at com.automation.utils.ConfigReader.getProperty(ConfigReader.java:22)
+	at com.automation.pages.LoginPage.userIsOnLoginPage(LoginPage.java:27)
+	at com.automation.stepdef.LoginTest.user_is_on_login_page(LoginTest.java:14)
+	at ✽.User is on login page(file:///Users/Avalancha2/Documents/HudlProjectBrian/HudlProjectBrian/src/test/resources/features/Login.feature:5)
+
+Verify login fails if user enters email in password field and password in email field(Login)  Time elapsed: 0.004 sec  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "java.util.Properties.getProperty(String)" because "com.automation.utils.ConfigReader.prop" is null
+	at com.automation.utils.ConfigReader.getProperty(ConfigReader.java:22)
+	at com.automation.pages.LoginPage.userIsOnLoginPage(LoginPage.java:27)
+	at com.automation.stepdef.LoginTest.user_is_on_login_page(LoginTest.java:14)
+	at ✽.User is on login page(file:///Users/Avalancha2/Documents/HudlProjectBrian/HudlProjectBrian/src/test/resources/features/Login.feature:5)
+
